@@ -4,7 +4,7 @@ pipeline{
             stages{
                stage ('git-checkout'){
                                    steps{
-                                         git "https://github.com/shubhamshiyale/multi-practice.git"
+                                         git "https://github.com/RajputA1/game-of-life.git"
 }
 }
                stage('mvn') {
